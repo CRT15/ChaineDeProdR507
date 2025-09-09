@@ -49,6 +49,7 @@ final class MainController extends AbstractController
             ->add('firstName', null, ['label' => 'Prénom'])
             ->add('name', null, ['label' => 'Nom'])
             ->add('message', null, ['label' => 'Message'])
+            ->add('phone', null, ['label' => 'Téléphone'])
             ->add('send', SubmitType::class, ['label' => 'Envoyer'])
             ->getForm();
 
